@@ -2,9 +2,7 @@ package org.example.springtutorial.service
 
 import org.example.springtutorial.domain.Member
 import org.example.springtutorial.repository.MemberRepository
-import org.springframework.stereotype.Service
 
-@Service
 class MemberService(val memberRepository: MemberRepository) {
 
     /**

@@ -1,9 +1,7 @@
 package org.example.springtutorial.repository
 
 import org.example.springtutorial.domain.Member
-import org.springframework.stereotype.Repository
 
-@Repository
 class MemoryMemberRepository : MemberRepository {
 
     private var store: MutableMap<Long, Member> = mutableMapOf()
